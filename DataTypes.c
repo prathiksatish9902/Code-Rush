@@ -33,6 +33,7 @@ void Datatypes()
     void *v = a;
     datatypes dtype = {9 , 25.7658,'P','darshan', 2500000.678993};
     datatypes1 dtype1 = {'Q',8 ,'n','asdfghjkl', 22.7658, 6500000.678993};
+    //prints structure size
     printf("  structure size:%d\n ",sizeof(dtype));
 
     printf("int : %d\n",sizeof(dtype.i));
