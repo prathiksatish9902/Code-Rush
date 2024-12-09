@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.16)
 
 project(codeRush1 LANGUAGES C)
 
-add_executable(codeRush1 main.c)
+add_executable(codeRush1 main.c
+    DataTypes.c
+    DataTypes.md)
 
 include(GNUInstallDirs)
 install(TARGETS codeRush1
