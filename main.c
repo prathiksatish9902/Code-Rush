@@ -1,8 +1,6 @@
-#include "DataTypes.c"
-
 
 int main()
 {
-    Datatypes();
+     Data_Types();
     return 0;
 }

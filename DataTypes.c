@@ -11,15 +11,13 @@ typedef struct{
     char h;
     int i;
     char e;
-
     char j[10];
-
     float f;
     double t;
 }datatypes1;
 
 
-void Datatypes()
+void Data_Types()
 {
     int a = 1;
     float b = 7.5;

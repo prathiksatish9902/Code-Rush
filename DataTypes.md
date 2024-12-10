@@ -1,51 +1,25 @@
-# First Level Heading
+# Data Types
 
-Paragraph.
+Represents the data of which type.
 
-## Second Level Heading
 
-Paragraph.
+## Different data types
+#### pre defined data types
+-int(integer) size = 4 bytes
+-float (decimal point) size = 4 bytes
+-char (character or strings) size= 1 bytes for character 
+for strings size has to be mentioned
+-double (used fordecimal points) size =8 bytes
 
-- bullet
-+ other bullet
-* another bullet
-    * child bullet
+#### derived data types
+-arrays
+-pointers
+-structures (we can use different pre defined data types inside the structure)
+it is also called user defined data types.
 
-1. ordered
-2. next ordered
+## key points
+for 12.5 the compiler consider the data type as double
+if we give 12.5f the compiler consider as float.
 
-### Third Level Heading
+for pointers it allocates 8 bytes of memory.
 
-Some *italic* and **bold** text and `inline code`.
-
-An empty line starts a new paragraph.
-
-Use two spaces at the end  
-to force a line break.
-
-A horizontal ruler follows:
-
----
-
-Add links inline like [this link to the Qt homepage](https://www.qt.io),
-or with a reference like [this other link to the Qt homepage][1].
-
-    Add code blocks with
-    four spaces at the front.
-
-> A blockquote
-> starts with >
->
-> and has the same paragraph rules as normal text.
-
-First Level Heading in Alternate Style
-======================================
-
-Paragraph.
-
-Second Level Heading in Alternate Style
----------------------------------------
-
-Paragraph.
-
-[1]: https://www.qt.io
